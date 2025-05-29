@@ -299,7 +299,12 @@ main {
 }
 .testimonials #review2 #homem2{
   position:relative;
-  right: 240px;
+  right: 200px;
+}
+
+.testimonials #review3 #homem3{
+  position:relative;
+  bottom: 25px;
 }
 .testimonials #review3{
   position:relative;
