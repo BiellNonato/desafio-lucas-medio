@@ -339,6 +339,7 @@ main {
     font-size: 1rem;
     position: relative;
     bottom:900px ;
+    border: 1px solid white;
   }
 body {
   background-color: #000;
