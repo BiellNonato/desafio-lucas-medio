@@ -47,22 +47,14 @@ main {
 }
 
 .home h1 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 20px;
     font-family: 'Playfair Display';
     color: #fff;
-    font-size: 4cm;
     text-align: center;
-    margin-left: 150px;
     width: 800px;
-    position: absolute;
     top: 110px;
-    left: 200px;
     z-index: 11;
     margin-top: 50px;
-    
+    font-size: 180px;
 }
 
 .home p {
@@ -119,7 +111,8 @@ main {
 
 .portifolio{
     display: flex;
-    padding: 20px 20px
+    padding: 20px 40px;
+    gap: 70px;
 }
 
 
@@ -132,7 +125,8 @@ main {
     color: #fff;
     margin-bottom: 50px;
     width: 418px;
-     font-family: 'Playfair Display';
+    font-size: 50px;
+    font-family: 'Playfair Display';
     
 }
 
@@ -168,6 +162,7 @@ main {
     height: auto;
 }
 
+
 .about-info{
     display: flex;
     justify-content: center;
@@ -185,13 +180,18 @@ main {
 
 .about-content{
     margin-top: 40px;
-    width: 600px;
     display: flex;
     flex-direction: column;
     gap: 50px;
     color: #fff;
-    font-size: 40px;
 }
+
+.about-content p{
+  font-size: 40px;
+  width: 590px;
+}
+
+
 .about-content img{
     height: 100vh;
     margin-bottom: 40px;
@@ -214,7 +214,7 @@ main {
   }
   .testimonials h2{
      font-family: 'Playfair Display';
-    font-size: 3rem;
+    font-size: 80px;
   }
   .testimonials .conteudo{
     display: flex;
