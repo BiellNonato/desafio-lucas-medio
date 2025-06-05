@@ -181,6 +181,7 @@ main {
     display: flex;
     margin: 20px 70px 20px 70px;
     gap: 80px;
+    margin: 0px 100px 0px 100px;
 }
 
 .about-content{
@@ -197,7 +198,7 @@ main {
 }
 
 
-.about-content img{
+.about-container img{
     height: 100vh;
     margin-bottom: 40px;
 }
