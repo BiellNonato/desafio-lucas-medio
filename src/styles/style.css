@@ -180,8 +180,12 @@ main {
 .about-container{
     display: flex;
     margin: 20px 70px 20px 70px;
+<<<<<<< HEAD
     gap: 80px;
     margin: 0px 100px 0px 100px;
+=======
+    gap: 60px;
+>>>>>>> cd83d6f9984fba67b71a1db5bb35cb8e6a90c7dd
 }
 
 .about-content{
